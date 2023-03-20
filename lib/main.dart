@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             ElevatedButton(
                 onPressed: () {
-                  AppLocalizations.of(context)!.locale.languageCode;
+                  // AppLocalizations.of(context)!.locale.languageCode;
 
                   context.read<LocaleCubit>().changeLocale(
                         AppLocalizations.of(context)!.isRTL()
